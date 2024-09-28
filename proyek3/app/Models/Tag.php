@@ -22,6 +22,6 @@ class Tag extends Model
 
     public function category()
     {
-        return $this->belongsTo(Tag::class, 'category_id');
+        return $this->belongsTo(Category::class, 'category_id');
     }
 }
