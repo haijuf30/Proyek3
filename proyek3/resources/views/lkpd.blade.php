@@ -11,10 +11,7 @@
   <!-- Include Navbar -->
   @include('navbar')
 
-  <!-- Content -->
-  <div class="container mx-auto mt-4">
-    @yield('content')
-  </div>
+  <p>LKPD</p>
 
   <!-- Footer (optional) -->
   <footer class="bg-gray-800 text-white text-center p-4 mt-4">
